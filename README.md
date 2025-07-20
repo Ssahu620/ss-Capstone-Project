@@ -1,5 +1,3 @@
-# ss-Capstone-Project
-
 Sonal Sahu – Capstone Project:
 
 Goal – To predict revenues for seven Marriott Hotels in 2025.
@@ -16,15 +14,12 @@ d.	Plot revenues by hotels and years using a bar plot.
 e.	Plot revenues by hotels and years using line plot.
 
 3)	To avoid intensive calculations using a subset of data (NYCRI hotel) to create various models. In the final submission I will use data for all other hotels also.
+4)	Used Regression model to predict revenue using various features in the datarframe.
+5)	Used Target Encoding to encode all non-numeric features into numerical features.
+6)	Used sequential feature selection to get the best features.
+7)	Used Permutation importance to get the importance of features.
+8)	Used Gridsearch CV to verify feature selection.
 
-4)	Use date and revenue columns of NYCRI hotel to test if series is stationary using ACF, PACF, and Durbin-Watson test. 
+Results-
+So far model is showing high RMSE. I will speak to my instructor to see how can it be improved.
 
-5)	There is one period lag auto-correlation in data series.
-
-6)	Used three models ARIMA, SARIMA, and Decomposition to predict future values.
-
-7)	Since hotel revenues are dependent on both seasonality (time series) and other factors, I am now switching to linear regression to find out which features are most important to predict future values.
-
-8)	Will discuss with Savio whether to continue refining time series models or regression models to get to final results.
-
-9)	Issue – All coding was done using Google Colab. I am not able to save csv files in Github because of large datasize.
